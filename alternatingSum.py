@@ -1,5 +1,3 @@
-
-
 array = [50, 60, 60, 45, 70]
 sumas  = [0,0]
 for index ,item in enumerate(array):
