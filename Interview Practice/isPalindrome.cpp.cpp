@@ -15,6 +15,5 @@ int main()
     if(isPalindrome) cout << "Es palindromo" << endl;
     else cout << "No es palindromo" << endl;
 
-
     return 0;
 }
