@@ -1,9 +1,6 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
-
-
 string solve(int, vector<int>);
 
 int main(){
@@ -23,7 +20,6 @@ int main(){
     return 0;
 }
 
-
 string solve(int k, vector<int> arr) {
     if(arr.size() % k != 0){
         return "No";
@@ -39,8 +35,6 @@ string solve(int k, vector<int> arr) {
                 return "No";
             }
             cont++;
-
-
     }
         return "Yes";
     }
